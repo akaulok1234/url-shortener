@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // 6. Temporary in-memory database
-const urlDatabase = {}; // Example: { "a1b2c3": "https://youtube.com" }
+const urlDatabase = {}; 
 
 // 7. Function to generate random 6-character codes
 function generateShortCode() {
