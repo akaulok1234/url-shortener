@@ -10,7 +10,7 @@ const PORT = 3000;
 // 4. Middleware: allow parsing JSON in request bodies
 app.use(express.json());
 
-// 5. Middleware: allow parsing form submissions (not used here, but good to know)
+// 5. Middleware: allow parsing form submissions 
 app.use(express.urlencoded({ extended: true }));
 
 // 6. Temporary in-memory database
